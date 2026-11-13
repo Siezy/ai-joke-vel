@@ -3,7 +3,7 @@
 # Offline, stdlib only, deterministic: both runs write identical bytes.
 import os
 
-JOKE = "My AI agent finished the sprint in 20 minutes, so now I attend the standup to explain what it did and it reviews my explanation in PR comments."
+JOKE = "It wrote a perfect migration, dropped the table, and cited the docs it also wrote."
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
